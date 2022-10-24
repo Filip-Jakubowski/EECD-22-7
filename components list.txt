@@ -4,5 +4,5 @@ differential pressure sensor
 normal pressure sensor
 valve
 pump
-signal transmission - sonar
+signal transmission - suwa
 methan detector - IR based, calibrated for ~1300 1/cm
