@@ -1,5 +1,5 @@
 assumption - work on average ocean depth (3.8 km), pressure - 380 atm, T = 4 °C
-temperature sensor - high pressure thermocouple, TC90
+temperature sensor 
 differential pressure sensor
 normal pressure sensor
 valve
