@@ -2,6 +2,6 @@ assumption - work on depth 300 m, pressure - up to 30 bar, T = 4 °C
 
 temperature sensor - semiconductor, waterproof, DS18B20 (datasheet: http://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf) (1.87€)
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
-signal transmission - shallow water acoustic
-methan detector - IR spectroscopy based, calibrated for ~1300 1/cm
+signal transmission - shallow water acoustic - hydrophone
+methan detector - IR spectroscopy based, calibrated for ~1300 1/cm. no products online, only prototypes and for research use. same with mass spectrometers. the measurement usually done with FID, on land, after passing through gas-water equilibrator. three possibilities - 1. pack entire FTIR machine into the case, create inlets and outlets into sampling chamber; 2 - use cheap methane detector that's already calibrated for those waves and modify it to have a chamber to pass through and to send signals; 3 - change project conception to be a station located on a floating platform
 power source - li-ion battery
