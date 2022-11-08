@@ -4,8 +4,10 @@ temperature sensor - semiconductor, waterproof, DS18B20 (datasheet: http://cdn.s
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 signal transmission - shallow water acoustic - projector of accoustic waves in sonar systems
 methan detector - IR spectroscopy based, calibrated for ~1300 1/cm. no products online, only prototypes and for research use. same with mass spectrometers. 
+OR https://www.franatech.com/mets_methane_sensor.html direct complete component
 the measurement usually done with FID, on land, after passing through gas-water equilibrator.
 three possibilities - 1. pack entire FTIR machine into the case, create inlets and outlets into sampling chamber; 
 2 - use cheap methane detector that's already calibrated for those waves and modify it to have a chamber to pass through and to send signals; 
 3 - change project concept to be a station located on a floating platform - then transmission doesn't have to be accoustic anymore either
 power source - li-ion battery
+ GDK101 Gamma Radiation Sensor Module (datasheet: http://allsmartlab.com/eng/wp-content/uploads/sites/2/2017/01/GDK101datasheet_v1.6.pdf)
