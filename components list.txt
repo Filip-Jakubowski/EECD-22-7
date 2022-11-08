@@ -1,7 +1,7 @@
 assumption - work on depth 300 m, pressure - up to 30 bar, T = 4 °C
 
 temperature sensor - semiconductor, waterproof, DS18B20 (datasheet: http://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf) (1.87€)
-pressure sensor
+pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 signal transmission - shallow water acoustic
 methan detector - IR spectroscopy based, calibrated for ~1300 1/cm
 power source - li-ion battery
