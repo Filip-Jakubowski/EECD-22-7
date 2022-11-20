@@ -1,6 +1,17 @@
-assumption - work on depth 300 m, pressure - up to 30 bar, T = 4 °C
+assumption - work on depth 200 m, pressure - up to ~20 bar, T = 4 °C
 
-temperature sensor - semiconductor, waterproof, DS18B20 (datasheet: http://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf) (1.87€)
+////////////////////////
+J1 - I2C gamma sensor female connector 
+     datasheet: http://allsmartlab.com/eng/wp-content/uploads/sites/2/2017/01/GDK101datasheet_v1.6.pdf
+
+///////////////////////
+U1 - ?
+U2 - Temperature sensor
+     https://www.ti.com/lit/gpn/tmp1075
+
+
+
+ temperature sensor semiconductor, waterproof, DS18B20 (datasheet: http://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf) (1.87€)
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 signal transmission - shallow water acoustic - projector of accoustic waves in sonar systems
 methan detector - IR spectroscopy based, calibrated for ~1300 1/cm. no products online, only prototypes and for research use. same with mass spectrometers. 
