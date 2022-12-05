@@ -356,8 +356,21 @@
     (pin "6" (uuid f0ff85bb-4248-4803-ac70-574f4e25f7a7))
   )
 
+  (sheet (at 15.24 242.57) (size 284.48 111.76) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6fbcc029-2e97-4cbb-aefe-dadd6dac0b49)
+    (property "Sheet name" "measurements" (id 0) (at 15.24 241.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "measurements_sch.kicad_sch" (id 1) (at 15.24 354.9146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49" (page "2"))
   )
 
   (symbol_instances
@@ -369,6 +382,9 @@
     )
     (path "/660be7d2-1f7a-4768-99a1-b2cc3f121f43"
       (reference "U2_Temperature_Sensor") (unit 1) (value "TMP1075D") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
+      (reference "U?") (unit 1) (value "519") (footprint "")
     )
   )
 )
