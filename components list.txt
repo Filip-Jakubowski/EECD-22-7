@@ -4,11 +4,12 @@ assumption - work on depth 200 m, pressure - up to ~20 bar, T = 4 °C
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 methan detector  https://www.franatech.com/mets_methane_sensor.html 
 GDK101 Gamma Radiation Sensor Module (datasheet: http://allsmartlab.com/eng/wp-content/uploads/sites/2/2017/01/GDK101datasheet_v1.6.pdf)
-resistors:
-capacitors:
-piezo:
+resistors: 100Ω, 470 kΩ
+capacitors: 0.1uF
+piezo: buzzer 35s (1 €)
 photoisolator:
 inductors:
 relays:
+diodes: 1N4934 
 power source - li-ion battery 12V
  
