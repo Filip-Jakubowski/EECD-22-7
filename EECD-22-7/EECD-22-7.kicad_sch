@@ -356,6 +356,18 @@
     (pin "6" (uuid f0ff85bb-4248-4803-ac70-574f4e25f7a7))
   )
 
+  (sheet (at 17.78 375.92) (size 281.94 81.28) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 03efad70-c9aa-48a1-8756-ad404298714a)
+    (property "Sheet name" "communication" (id 0) (at 17.78 375.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ultrasound_sch.kicad_sch" (id 1) (at 17.78 457.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 15.24 242.57) (size 284.48 111.76) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -368,20 +380,64 @@
     )
   )
 
+  (sheet (at 320.04 7.62) (size 124.46 203.2) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9c7af212-65f3-4d36-9a7c-51f47c138f55)
+    (property "Sheet name" "power converters" (id 0) (at 320.04 6.9084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 320.04 211.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49" (page "2"))
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a" (page "3"))
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55" (page "4"))
   )
 
   (symbol_instances
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/358c6983-81cf-4558-aacb-35d3a5f778c5"
+      (reference "#PWR?") (unit 1) (value "+1V0") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/f0e9981e-f1ec-415d-b90b-438ddaa7c882"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/be22a395-60aa-4885-bf5e-173116540bc5"
+      (reference "BZ1") (unit 1) (value "Piezo") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/6f354bec-17a3-4ebf-9b29-8e9e2afe0ee7"
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/76127282-4a58-4150-afae-0beec97e3c40"
+      (reference "D1") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/29e69c9a-c4b2-49e9-92ce-3b7aff26f405"
+      (reference "D2") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
     (path "/ab6339dd-3fd4-470b-88ba-ed003ffd90e2"
       (reference "J1_I2C_Gamma_Sensor") (unit 1) (value "Conn_01x06_Female") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/082c7dd8-d570-485a-8a8c-7516fa7ad208"
+      (reference "R1") (unit 1) (value "100R") (footprint "")
+    )
+    (path "/03efad70-c9aa-48a1-8756-ad404298714a/e310a78b-1c0b-4b8a-9cad-4befb515f038"
+      (reference "R2") (unit 1) (value "470k") (footprint "")
     )
     (path "/ab543afa-5bfb-444f-a849-bb48797521b2"
       (reference "U1_Pressure_Sensor") (unit 1) (value "MS5525DSO") (footprint "")
     )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/cf0de218-f97d-40c7-864e-2518980e3d53"
+      (reference "U2") (unit 1) (value "LM25183NGUR") (footprint "")
+    )
     (path "/660be7d2-1f7a-4768-99a1-b2cc3f121f43"
       (reference "U2_Temperature_Sensor") (unit 1) (value "TMP1075D") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/912c63c5-5df7-4dcf-8c39-15d6624f0cd7"
+      (reference "U3") (unit 1) (value "LM5181NGUR") (footprint "")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
       (reference "U?") (unit 1) (value "519") (footprint "")

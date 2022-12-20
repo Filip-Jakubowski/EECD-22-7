@@ -418,6 +418,14 @@
     [
       "6fbcc029-2e97-4cbb-aefe-dadd6dac0b49",
       "measurements"
+    ],
+    [
+      "03efad70-c9aa-48a1-8756-ad404298714a",
+      "communication"
+    ],
+    [
+      "9c7af212-65f3-4d36-9a7c-51f47c138f55",
+      "power converters"
     ]
   ],
   "text_variables": {}
