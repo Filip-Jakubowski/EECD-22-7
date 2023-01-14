@@ -426,6 +426,10 @@
     [
       "9c7af212-65f3-4d36-9a7c-51f47c138f55",
       "power converters"
+    ],
+    [
+      "942d51a0-7498-4db1-b32e-613df6c3f987",
+      "main"
     ]
   ],
   "text_variables": {}
