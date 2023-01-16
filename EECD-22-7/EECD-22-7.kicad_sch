@@ -20,6 +20,18 @@
     )
   )
 
+  (sheet (at 177.8 54.61) (size 40.64 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 415dd66c-310d-4150-9e33-ee8b65aef7bc)
+    (property "Sheet name" "mcu" (id 0) (at 177.8 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mcu_sch.kicad_sch" (id 1) (at 177.8 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 134.62 54.61) (size 39.37 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -62,6 +74,7 @@
     (path "/03efad70-c9aa-48a1-8756-ad404298714a" (page "3"))
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55" (page "4"))
     (path "/942d51a0-7498-4db1-b32e-613df6c3f987" (page "5"))
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc" (page "6"))
   )
 
   (symbol_instances
@@ -103,6 +116,12 @@
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/912c63c5-5df7-4dcf-8c39-15d6624f0cd7"
       (reference "U3") (unit 1) (value "LM5181NGUR") (footprint "")
+    )
+    (path "/942d51a0-7498-4db1-b32e-613df6c3f987/a5acd85e-3114-4004-a4be-0df8305cfbf6"
+      (reference "U?") (unit 1) (value "MAX485E") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/b8e1c121-555c-4163-905a-781916653ef8"
+      (reference "U?") (unit 1) (value "ATmega644V-10M") (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
       (reference "U?") (unit 1) (value "519") (footprint "")
