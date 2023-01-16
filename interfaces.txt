@@ -10,7 +10,7 @@ Radiation: GDK101
 
 
 Methane: Franatech
-- RS485
+- RS485 -> through converter into UART
 - VDD: 12V
 10mA
 
