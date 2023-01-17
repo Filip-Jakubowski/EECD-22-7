@@ -8,31 +8,31 @@
   )
 
 
-  (sheet (at 88.9 104.14) (size 38.1 36.83) (fields_autoplaced)
+  (sheet (at 59.69 104.14) (size 67.31 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 03efad70-c9aa-48a1-8756-ad404298714a)
-    (property "Sheet name" "communication" (id 0) (at 88.9 103.4284 0)
+    (property "Sheet name" "communication" (id 0) (at 59.69 103.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "ultrasound_sch.kicad_sch" (id 1) (at 88.9 141.5546 0)
+    (property "Sheet file" "ultrasound_sch.kicad_sch" (id 1) (at 59.69 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 177.8 54.61) (size 40.64 39.37) (fields_autoplaced)
+  (sheet (at 59.69 54.61) (size 67.31 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 415dd66c-310d-4150-9e33-ee8b65aef7bc)
-    (property "Sheet name" "mcu" (id 0) (at 177.8 53.8984 0)
+    (property "Sheet name" "mcu" (id 0) (at 59.69 53.8984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "mcu_sch.kicad_sch" (id 1) (at 177.8 94.5646 0)
+    (property "Sheet file" "mcu_sch.kicad_sch" (id 1) (at 59.69 94.5646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 134.62 54.61) (size 39.37 39.37) (fields_autoplaced)
+  (sheet (at 134.62 54.61) (size 71.12 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6fbcc029-2e97-4cbb-aefe-dadd6dac0b49)
@@ -44,19 +44,7 @@
     )
   )
 
-  (sheet (at 88.9 54.61) (size 38.1 39.37) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 942d51a0-7498-4db1-b32e-613df6c3f987)
-    (property "Sheet name" "main" (id 0) (at 88.9 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 88.9 94.5646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 134.62 104.14) (size 38.1 36.83) (fields_autoplaced)
+  (sheet (at 134.62 104.14) (size 69.85 36.83) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 9c7af212-65f3-4d36-9a7c-51f47c138f55)
@@ -73,7 +61,6 @@
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49" (page "2"))
     (path "/03efad70-c9aa-48a1-8756-ad404298714a" (page "3"))
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55" (page "4"))
-    (path "/942d51a0-7498-4db1-b32e-613df6c3f987" (page "5"))
     (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc" (page "6"))
   )
 
@@ -183,13 +170,31 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/cc0114f3-5e73-4cb6-b962-f37d567e16f7"
       (reference "C14") (unit 1) (value "10uF") (footprint "")
     )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/1c4d9d80-004c-4aae-a0ee-6724f8a616e3"
+      (reference "C15") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/972e407f-d96f-4fe1-829a-f637cec60c2d"
+      (reference "C16") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/e764f57b-450b-4c5b-bf87-8a19fecd14a8"
+      (reference "C17") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/be80ec3b-a7a3-49a5-bd46-b636724fff6b"
+      (reference "C18") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/894a4b68-d98b-4c78-96f1-229c7ecfff98"
+      (reference "C19") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/6a116c90-fb0f-4a52-bb29-c9efba039654"
+      (reference "C20") (unit 1) (value "1uF") (footprint "")
+    )
     (path "/03efad70-c9aa-48a1-8756-ad404298714a/76127282-4a58-4150-afae-0beec97e3c40"
       (reference "D1") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/03efad70-c9aa-48a1-8756-ad404298714a/29e69c9a-c4b2-49e9-92ce-3b7aff26f405"
       (reference "D2") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
-    (path "/942d51a0-7498-4db1-b32e-613df6c3f987/eb7f4799-9c5b-4169-b632-4f576f2e8b1d"
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/23c26929-da1f-4eb3-a538-739afcee9733"
       (reference "J1_I2C_Gamma_Sensor?") (unit 1) (value "Conn_01x06_Female") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/bad3fc83-405b-4f3e-b1db-8d5c17b4c1f0"
@@ -200,6 +205,12 @@
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/aa1597e4-e874-4b65-8e35-cdb1b7123854"
       (reference "L3") (unit 1) (value "12uH") (footprint "")
+    )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3bc44259-c6f5-47cb-bbbc-e193a255103d"
+      (reference "Q1") (unit 1) (value "IRF6616") (footprint "Package_DirectFET:DirectFET_MX")
+    )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/12a8aca8-2257-4379-90ff-647554e3744d"
+      (reference "Q2") (unit 1) (value "IRF6616") (footprint "Package_DirectFET:DirectFET_MX")
     )
     (path "/03efad70-c9aa-48a1-8756-ad404298714a/082c7dd8-d570-485a-8a8c-7516fa7ad208"
       (reference "R1") (unit 1) (value "100R") (footprint "")
@@ -225,13 +236,28 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/d7ae20df-6c4e-4a26-a9ba-6a85bcb6cddd"
       (reference "R9") (unit 1) (value "22kR") (footprint "")
     )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/b8f2ff96-ccec-46c9-a0e8-af4385b84d4f"
+      (reference "R15") (unit 1) (value "10kR") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/38ed9b93-44f8-48f9-ae47-04c489933495"
+      (reference "R16") (unit 1) (value "500kR") (footprint "")
+    )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/db0e37c9-c715-4c6d-bef2-8e9b8028a567"
+      (reference "R20") (unit 1) (value "10kR") (footprint "")
+    )
+    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3c5dfd03-89d6-4be0-9a92-9c429350514d"
+      (reference "R?") (unit 1) (value "10kR") (footprint "")
+    )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/4a7379e1-ac0a-4ddc-88a3-fd1e1ca6e517"
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+    )
     (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/03e88226-cd4c-495e-8240-f30f511ef3fc"
       (reference "U1") (unit 1) (value "STM32F103CBUx") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm")
     )
-    (path "/942d51a0-7498-4db1-b32e-613df6c3f987/adbee1bf-d88c-4783-a838-2c603551276b"
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/9d586274-0455-46fc-85aa-d0245b458ee2"
       (reference "U1_Pressure_Sensor?") (unit 1) (value "MS5525DSO") (footprint "")
     )
-    (path "/942d51a0-7498-4db1-b32e-613df6c3f987/b777e41f-e4bb-4932-9d75-ce2dabd6efea"
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/5e9a6694-3a90-4221-9a42-ceda3055f854"
       (reference "U2_Temperature_Sensor?") (unit 1) (value "TMP1075D") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/912c63c5-5df7-4dcf-8c39-15d6624f0cd7"
@@ -243,11 +269,11 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/f348a411-6516-40d5-8fb8-6a22730371eb"
       (reference "U5") (unit 1) (value "LMR54406DBVR") (footprint "")
     )
-    (path "/942d51a0-7498-4db1-b32e-613df6c3f987/a5acd85e-3114-4004-a4be-0df8305cfbf6"
-      (reference "U?") (unit 1) (value "MAX485E") (footprint "")
-    )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
-      (reference "U?") (unit 1) (value "519") (footprint "")
+      (reference "U7") (unit 1) (value "519") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/801548aa-1a6b-4b2f-a875-e509e4453ddf"
+      (reference "U8") (unit 1) (value "MAX485E") (footprint "")
     )
   )
 )
