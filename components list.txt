@@ -1,6 +1,6 @@
 assumption - work on depth 200 m, pressure - up to ~20 bar, T = 4 °C
 
-MCU - ATMEGA644v-10mu, datasheet: https://ww1.microchip.com/downloads/en/DeviceDoc/doc2593.pdf (1.7€)
+MCU - STM32F103CBU6u, datasheet: https://www.st.com/en/microcontrollers-microprocessors/stm32f103cb.html#documentation (5€)
 temperature sensor waterproof DS18B20 (datasheet: http://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf) (1.87€)
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 methan detector  https://www.franatech.com/mets_methane_sensor.html 
@@ -13,7 +13,7 @@ photoisolator:
 relays:
 diodes: 4x 1N4934, 4x Shottky
 power source: li-ion battery 18V KD1760
-power converters: 2x LMR54406DBVR (0.8€)
+power converters: 3x LMR54406DBVR (0.8€)
 converter UART - RS485 Waveshare MAX485 datasheet: https://www.waveshare.com/w/upload/f/fe/MAX481-MAX483-MAX485-MAX487-MAX1487-MAX490-MAX491.pdf (4€)
 
  
