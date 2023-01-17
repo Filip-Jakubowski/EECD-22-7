@@ -5,14 +5,15 @@ temperature sensor waterproof DS18B20 (datasheet: http://cdn.sparkfun.com/datash
 pressure sensor - relative transmitter huba control 519 (datasheet: https://apautomatyka.pl/download/dat_519_Huba-Control_en.pdf)
 methan detector  https://www.franatech.com/mets_methane_sensor.html 
 GDK101 Gamma Radiation Sensor Module (datasheet: http://allsmartlab.com/eng/wp-content/uploads/sites/2/2017/01/GDK101datasheet_v1.6.pdf)
-resistors: 3x 100 Ω, 470 kΩ, 2x 12 kΩ, 2x 120 kΩ
-capacitors: 0.1µF, 22 µF, 2x 10 µF, 2x 22 pF, 47 µF 
+resistors: 3x 100 Ω, 470 kΩ, 2x 12 kΩ, 2x 22kΩ, 115kΩ, 2x 120 kΩ, 309 kΩ 
+capacitors: 4x 0.1µF, 22 µF, 4x 10 µF, 2x 22 pF, 47 µF 
+inductors: 15 µH, 150 µH
 piezo: buzzer 35s (1 €)
 photoisolator:
 relays:
 diodes: 4x 1N4934, 4x Shottky
 power source: li-ion battery 18V KD1760
-power converters: LM25183NGUR, LM5181NGUR
+power converters: 2x LMR54406DBVR (0.8€)
 converter UART - RS485 Waveshare MAX485 datasheet: https://www.waveshare.com/w/upload/f/fe/MAX481-MAX483-MAX485-MAX487-MAX1487-MAX490-MAX491.pdf (4€)
 
  
