@@ -89,9 +89,6 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/2d9ad9b2-c254-461c-ab1c-5266b2974388"
       (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/03efad70-c9aa-48a1-8756-ad404298714a/358c6983-81cf-4558-aacb-35d3a5f778c5"
-      (reference "#PWR?") (unit 1) (value "+1V0") (footprint "")
-    )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3b4783df-e521-465c-87a4-2ce4d39f06f0"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -188,6 +185,15 @@
     (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/6a116c90-fb0f-4a52-bb29-c9efba039654"
       (reference "C20") (unit 1) (value "1uF") (footprint "")
     )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/cd95cc3f-1311-4b4c-875d-d9e44d7b0581"
+      (reference "C25") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/bbb72a49-6e33-41ea-99f0-837de47b8c08"
+      (reference "C26") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/b819cf50-f5a6-4a98-b95d-783da0a1ef6e"
+      (reference "C27") (unit 1) (value "100nF") (footprint "")
+    )
     (path "/03efad70-c9aa-48a1-8756-ad404298714a/76127282-4a58-4150-afae-0beec97e3c40"
       (reference "D1") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
@@ -245,6 +251,9 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/db0e37c9-c715-4c6d-bef2-8e9b8028a567"
       (reference "R20") (unit 1) (value "10kR") (footprint "")
     )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/360db340-539b-44cb-917c-4814d3f8f1d0"
+      (reference "R25") (unit 1) (value "4.7KR") (footprint "")
+    )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3c5dfd03-89d6-4be0-9a92-9c429350514d"
       (reference "R?") (unit 1) (value "10kR") (footprint "")
     )
@@ -253,12 +262,6 @@
     )
     (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/03e88226-cd4c-495e-8240-f30f511ef3fc"
       (reference "U1") (unit 1) (value "STM32F103CBUx") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm")
-    )
-    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/9d586274-0455-46fc-85aa-d0245b458ee2"
-      (reference "U1_Pressure_Sensor?") (unit 1) (value "MS5525DSO") (footprint "")
-    )
-    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/5e9a6694-3a90-4221-9a42-ceda3055f854"
-      (reference "U2_Temperature_Sensor?") (unit 1) (value "TMP1075D") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/912c63c5-5df7-4dcf-8c39-15d6624f0cd7"
       (reference "U3") (unit 1) (value "LMR54406DBVR") (footprint "")
@@ -270,10 +273,19 @@
       (reference "U5") (unit 1) (value "LMR54406DBVR") (footprint "")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
-      (reference "U7") (unit 1) (value "519") (footprint "")
+      (reference "U7") (unit 1) (value "519.933.003M") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/3a006ecc-b301-417c-b427-edf58612ff3b"
+      (reference "U8") (unit 1) (value "DS18B20") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/801548aa-1a6b-4b2f-a875-e509e4453ddf"
       (reference "U8") (unit 1) (value "MAX485E") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/3bb38827-c0aa-479d-98ee-1719420e722c"
+      (reference "U9") (unit 1) (value "Mets_methane_sensor") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/fcd4c538-029c-4f55-a6c7-28bd83fc0bbd"
+      (reference "U10") (unit 1) (value "4002B") (footprint "")
     )
   )
 )
