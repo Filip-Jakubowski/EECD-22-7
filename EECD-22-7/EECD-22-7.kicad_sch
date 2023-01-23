@@ -188,6 +188,12 @@
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/cd95cc3f-1311-4b4c-875d-d9e44d7b0581"
       (reference "C25") (unit 1) (value "100nF") (footprint "")
     )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/bbb72a49-6e33-41ea-99f0-837de47b8c08"
+      (reference "C26") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/b819cf50-f5a6-4a98-b95d-783da0a1ef6e"
+      (reference "C27") (unit 1) (value "100nF") (footprint "")
+    )
     (path "/03efad70-c9aa-48a1-8756-ad404298714a/76127282-4a58-4150-afae-0beec97e3c40"
       (reference "D1") (unit 1) (value "1N4004") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
@@ -267,13 +273,19 @@
       (reference "U5") (unit 1) (value "LMR54406DBVR") (footprint "")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/c24eb077-6d4a-4ccd-bd1c-9ae5a44d9429"
-      (reference "U7") (unit 1) (value "519") (footprint "")
+      (reference "U7") (unit 1) (value "519.933.003M") (footprint "")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/3a006ecc-b301-417c-b427-edf58612ff3b"
       (reference "U8") (unit 1) (value "DS18B20") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/801548aa-1a6b-4b2f-a875-e509e4453ddf"
       (reference "U8") (unit 1) (value "MAX485E") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/3bb38827-c0aa-479d-98ee-1719420e722c"
+      (reference "U9") (unit 1) (value "Mets_methane_sensor") (footprint "")
+    )
+    (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/fcd4c538-029c-4f55-a6c7-28bd83fc0bbd"
+      (reference "U10") (unit 1) (value "4002B") (footprint "")
     )
   )
 )
