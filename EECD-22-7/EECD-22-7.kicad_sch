@@ -156,40 +156,40 @@
       (reference "C5") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/c4c6c911-d891-4096-a0de-be04fdcd3675"
-      (reference "C6") (unit 1) (value "100nF") (footprint "")
+      (reference "C6") (unit 1) (value "100nF 1mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/cc0114f3-5e73-4cb6-b962-f37d567e16f7"
-      (reference "C7") (unit 1) (value "10uF") (footprint "")
+      (reference "C7") (unit 1) (value "10uF 4.5 mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/6365bd5d-4655-4cb8-a360-478c5a7bc087"
-      (reference "C8") (unit 1) (value "10uF") (footprint "")
+      (reference "C8") (unit 1) (value "10uF 4.5mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/ad03ec5b-50fd-44b6-9d3d-9f127d3b6be9"
-      (reference "C9") (unit 1) (value "100nF") (footprint "")
+      (reference "C9") (unit 1) (value "100nF 3mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/39c315f0-9bb6-45b8-91e4-ce74bcdee1cd"
-      (reference "C10") (unit 1) (value "100nF") (footprint "")
+      (reference "C10") (unit 1) (value "100nF 1mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/7a3fe108-5250-4eee-97ac-acd4277e5e35"
-      (reference "C11") (unit 1) (value "10uF") (footprint "")
+      (reference "C11") (unit 1) (value "10uF 4.5mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/7188a097-cac5-4c8f-9970-aa577e9a9c10"
-      (reference "C12") (unit 1) (value "10uF") (footprint "")
+      (reference "C12") (unit 1) (value "10uF 20mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/37c54fa0-8cd7-4b9b-831c-ae7ebfdd247f"
-      (reference "C13") (unit 1) (value "100nF") (footprint "")
+      (reference "C13") (unit 1) (value "100nF 3mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/66439fc8-a974-4cfc-8970-351001b42238"
-      (reference "C14") (unit 1) (value "100nF") (footprint "")
+      (reference "C14") (unit 1) (value "100nF 1mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/a39d319a-4710-47dc-8c3e-2feccb0e6497"
-      (reference "C15") (unit 1) (value "10uF") (footprint "")
+      (reference "C15") (unit 1) (value "10uF 2.2mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/6ccb883e-4d73-48d4-8910-cb82e745a457"
-      (reference "C16") (unit 1) (value "10uF") (footprint "")
+      (reference "C16") (unit 1) (value "10uF 4.5mR") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/fb2b9fb5-94c4-4a05-824d-0a95eca490e9"
-      (reference "C17") (unit 1) (value "100nF") (footprint "")
+      (reference "C17") (unit 1) (value "100nF 20mR") (footprint "")
     )
     (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/5d1a7d3d-5771-404b-8a44-e62ecbefcbe2"
       (reference "C18") (unit 1) (value "100nF") (footprint "")
@@ -234,10 +234,10 @@
       (reference "L1") (unit 1) (value "12uH 100mR 1.6A") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/2ac524c5-fbc4-400e-884b-9d573d72c4a1"
-      (reference "L2") (unit 1) (value "15uH") (footprint "")
+      (reference "L2") (unit 1) (value "15uH 90mR 1.6A") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/bad3fc83-405b-4f3e-b1db-8d5c17b4c1f0"
-      (reference "L3") (unit 1) (value "150uH") (footprint "")
+      (reference "L3") (unit 1) (value "150uH 90mR 1.8A") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3bc44259-c6f5-47cb-bbbc-e193a255103d"
       (reference "Q1") (unit 1) (value "IRF6616") (footprint "Package_DirectFET:DirectFET_MX")
