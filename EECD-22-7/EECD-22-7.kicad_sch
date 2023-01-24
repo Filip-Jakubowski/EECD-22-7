@@ -77,9 +77,6 @@
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/c2b4c934-11f3-4129-9446-a40a97d99ad9"
       (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/15fc069c-68bc-4e6e-9101-c00cfac1d37f"
-      (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/613f8c0a-d54e-486e-8bfd-29b2f4ef8dc9"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -124,9 +121,6 @@
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/2535e143-3ca2-4281-9082-ea04c386fddd"
       (reference "#PWR015") (unit 1) (value "+BATT") (footprint "")
-    )
-    (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/a83f9d23-66bf-4fc2-aad4-7e0f6cd81a4f"
-      (reference "#PWR016") (unit 1) (value "-BATT") (footprint "")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/527a499e-44cb-4e61-a3b7-85bebaab4bc2"
       (reference "#PWR017") (unit 1) (value "+BATT") (footprint "")
@@ -231,13 +225,13 @@
       (reference "J4") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Horizontal")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/aa1597e4-e874-4b65-8e35-cdb1b7123854"
-      (reference "L1") (unit 1) (value "12uH 100mR 1.6A") (footprint "")
+      (reference "L1") (unit 1) (value "12uH 100mR 1.6A") (footprint "inductor:NPI54C120MTRF")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/2ac524c5-fbc4-400e-884b-9d573d72c4a1"
-      (reference "L2") (unit 1) (value "15uH 90mR 1.6A") (footprint "")
+      (reference "L2") (unit 1) (value "15uH 90mR 1.6A") (footprint "inductor:NPI75C150MTRF")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/bad3fc83-405b-4f3e-b1db-8d5c17b4c1f0"
-      (reference "L3") (unit 1) (value "150uH 90mR 1.8A") (footprint "")
+      (reference "L3") (unit 1) (value "15uH 90mR 1.8A") (footprint "inductor:NPI75C150MTRF")
     )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/3bc44259-c6f5-47cb-bbbc-e193a255103d"
       (reference "Q1") (unit 1) (value "IRF6616") (footprint "Package_DirectFET:DirectFET_MX")
