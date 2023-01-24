@@ -227,6 +227,9 @@
     (path "/6fbcc029-2e97-4cbb-aefe-dadd6dac0b49/692f95ba-e486-4d08-95b0-828876ce36b7"
       (reference "J3") (unit 1) (value "Screw_Terminal_01x04") (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01504HDWU_1x04_P5.00mm_Horizontal")
     )
+    (path "/415dd66c-310d-4150-9e33-ee8b65aef7bc/edc5835d-b68a-4075-b142-c6df8db1efe9"
+      (reference "J3") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Horizontal")
+    )
     (path "/9c7af212-65f3-4d36-9a7c-51f47c138f55/bad3fc83-405b-4f3e-b1db-8d5c17b4c1f0"
       (reference "L1") (unit 1) (value "150uH") (footprint "")
     )
