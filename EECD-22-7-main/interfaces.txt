@@ -1,0 +1,20 @@
+Temperature: DS18B20Z 
+-1 wire communication (GPIO)
+- VDD: 3.3V - 5V
+0.5mA
+
+Radiation: GDK101
+- I2C
+- VDD: 5V
+10mA
+
+
+Methane: Franatech
+- RS485 -> through converter into UART
+- VDD: 12V
+10mA
+
+Pressure: Huba Control Typ 519
+- GPIO
+- VDD: 12V
+10mA
